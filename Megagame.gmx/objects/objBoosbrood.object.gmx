@@ -67,7 +67,7 @@ if collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,objBroodjoost,f
     game_restart();
 }
 
-move_towards_point(objBroodjoost.x,objBroodjoost.y,1);
+move_towards_point(objBroodjoost.x,objBroodjoost.y,(objBoosbrood.level*0.5));
 </string>
           </argument>
         </arguments>
