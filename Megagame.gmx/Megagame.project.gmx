@@ -8,6 +8,7 @@
     <sound>sound\sndBrokje</sound>
     <sound>sound\sndBreak</sound>
     <sound>sound\sndSchiet</sound>
+    <sound>sound\sound3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprBroodjoost</sprite>
