@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\sndBrokje</sound>
     <sound>sound\sndBreak</sound>
+    <sound>sound\sndSchiet</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprBroodjoost</sprite>
@@ -17,6 +18,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scrThomas.gml</script>
     <script>scripts\scrAllSounds.gml</script>
     <script>scripts\scrSound.gml</script>
   </scripts>

@@ -76,11 +76,14 @@ alarm[0]=10+irandom(20);
 {
     var sj=collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,objSchietjoost,false,true);
     with(sj)instance_destroy();
+    
+    if sprite_index==sprHaatbroek scrSound(1); else scrSound(0);
     instance_destroy()
 }
 
 if collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,objBroodjoost,false,true) 
 {
+    with(objBroodjoost) scrSound(1);
     show_message('dooood#score= '+string(global.SCORE));
     game_restart();
 }
