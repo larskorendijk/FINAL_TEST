@@ -8,7 +8,7 @@ Ik ben op regel 1 aan het editten
 
 if obj==3
 {
-scrSound=1;
+scrSound=341; //andere sound man
 //verander deze als Thomas
 }
 
