@@ -9,6 +9,7 @@
     <sound>sound\sndBreak</sound>
     <sound>sound\sndSchiet</sound>
     <sound>sound\sound3</sound>
+    <sound>sound\sndSchietBETER</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprBroodjoost</sprite>

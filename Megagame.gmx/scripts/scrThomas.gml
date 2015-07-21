@@ -23,7 +23,7 @@ var snd=-1; //dit wordt de resource naam van het geluid dat je af wil spelen
 
 
 //Broodjoost geluiden
-if t=="broodjoost_schiet" snd=sndSchiet;
+if t=="broodjoost_schiet" snd=sndSchietBETER;
 
 //Boosbroek geluiden
 if t=="boosbroek_sterf" snd=sndBrokje;
@@ -42,7 +42,6 @@ if t=="haatbroek_sterf" snd=sndBrokje;
 
 //executeer
 audio_play_sound(snd,15,false);
-
 
 
 
