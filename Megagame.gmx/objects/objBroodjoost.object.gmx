@@ -163,7 +163,14 @@ if level&gt;1.5
     }
 }
 
-
+if level&gt;1.6
+{
+    if !irandom(25)
+    {
+    var c=instance_create(room_width,irandom(room_height),objRank);
+    
+    }
+}
 </string>
           </argument>
         </arguments>
