@@ -90,6 +90,8 @@ if level&lt;20 level+=0.001;
 
 if !irandom(5+(10*level))
 {
+scrSound(0);
+
     var b=instance_create(0,0,objBoosbroek);
     if irandom(1)
     {

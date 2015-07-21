@@ -1,0 +1,1 @@
+scrAllSounds(argument0);

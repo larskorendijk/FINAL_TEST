@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndBrokje</sound>
+    <sound>sound\sndBreak</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprBroodjoost</sprite>
     <sprite>sprites\sprSchietjoost</sprite>
@@ -13,6 +16,10 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrAllSounds.gml</script>
+    <script>scripts\scrSound.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objBroodjoost</object>
     <object>objects\objSchietjoost</object>
