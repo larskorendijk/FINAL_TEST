@@ -1,0 +1,44 @@
+Ik ben op regel 1 aan het editten
+
+
+
+
+//Voeg hier nieuwe dingen toe
+
+
+if obj==3
+{
+scrSound=1;
+//verander deze als Thomas
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dit zijn alle regels die er zijn
