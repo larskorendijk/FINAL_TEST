@@ -9,6 +9,7 @@
     <sprite>sprites\sprBroodjoost</sprite>
     <sprite>sprites\sprSchietjoost</sprite>
     <sprite>sprites\sprBoosbroek</sprite>
+    <sprite>sprites\sprHaatbroek</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
