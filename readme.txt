@@ -1,5 +1,9 @@
-Typ maar wat leuks xD
+--Thomas plek om willekeurige troep in te vullen---
 
-OH JE BENT ZEKER AFK.
 
-Ok nou dan niet.
+
+
+--Lars plek om willekeurige troep in te vullen---
+
+
+
