@@ -5,18 +5,10 @@ Ik ben op regel 1 aan het editten
 
 //Voeg hier nieuwe dingen toe
 
-Hey ik ben lars, ik ben wat random dingen aan het editen. 
-if obj==1
-{
-sound=42;
-//leuk toch deze?
-}
-
-
 
 if obj==3
 {
-scrSound=341; //andere sound man
+scrSound=194; //ik heb het geluid toch weer veranderd maki.
 //verander deze als Thomas
 }
 
