@@ -32,30 +32,6 @@ global.SCORE=0;
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>sound3</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -74,10 +50,7 @@ global.SCORE=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.SCORE+=1;
-
-
-var wsp=5;
+            <string>var wsp=5;
 
 if keyboard_check(vk_left) x-=wsp;
 if keyboard_check(vk_right) x+=wsp;
@@ -113,6 +86,15 @@ if level&lt;20 level+=0.001;
 
 
 
+if level&gt;2
+{
+    if !instance_number(objBoosbroek) &amp;&amp; !instance_number(objBoosbrood)
+    {
+        var bb=instance_create(room_width*0.5,0,objBoosbrood);
+    }
+}
+else
+{
 if !irandom(5+(10*level))
 {
 
@@ -170,6 +152,8 @@ if level&gt;1.6
     var c=instance_create(room_width,irandom(room_height),objRank);
     
     }
+}
+
 }
 </string>
           </argument>
