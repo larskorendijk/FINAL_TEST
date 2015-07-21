@@ -17,6 +17,7 @@
     <sprite>sprites\sprBoosbroek</sprite>
     <sprite>sprites\sprHaatbroek</sprite>
     <sprite>sprites\sprRank</sprite>
+    <sprite>sprites\sprExplosie</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,6 +31,7 @@
     <object>objects\objSchietjoost</object>
     <object>objects\objBoosbroek</object>
     <object>objects\objRank</object>
+    <object>objects\objExplosie</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

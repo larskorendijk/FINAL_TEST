@@ -78,7 +78,8 @@ alarm[0]=10+irandom(20);
     with(sj)instance_destroy();
     
     if sprite_index==sprHaatbroek scrSound(1); else scrSound(0);
-    instance_destroy()
+    instance_destroy();
+    instance_create(x,y,objExplosie);
 }
 
 if collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,objBroodjoost,false,true) 
